@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<div class="center">
+    <form action="search.php" method="POST">
+	<h2>What is this website and what is it about:</h2>
+	<a href="found.png"><b>Hackers have hacked many Mihoyo Accounts and published them.</a></b>
+	<br>
+	<b>This includes Genshin Impact Account data such as:</b>
+	
+	<p style="line-height: 25%">- Email</p>
+	<p style="line-height: 25%">- Username</p>
+	<p style="line-height: 25%">- Password</p>
+	<p style="line-height: 25%">- Connected Mobile-phone number</p>
+	<p style="line-height: 25%">- Connected Facebook Name</p>
+	<p style="line-height: 25%">- Connected Google Name</p>
+	<p style="line-height: 25%">- Connected Twitter Name</p>
+	<p style="line-height: 25%">- Connected Game Center Name</p>
+	<p style="line-height: 25%">- Connected Apple Name</p>
+	<p style="line-height: 25%">- Connected Sony Name</p>
+	<p style="line-height: 25%">- Connected Tap Name</p>
+	<br>
+	<b>I check daily for these published leaks and add them to my database.</b>
+	<br>
+	<a>(Without the above data of course - storing only UID and Username!)</a>
+	<br></br>
+	<b>Below you can enter your UID, Email or Username.</b>
+	<br>
+	<a>Then it will search for your Account in the Database.</a>
+	<p></p>
+	<b>If it found your Account it will Display:</b>
+	<br>
+	<a>"Your Account has been Leaked".</a>
+	<br></br>
+	<br>
+	<b>You will need your UID, Username or Email. You can find it here.</b>
+	<p></p>
+	<img src="img.png">
+	<p></p>
+	<b>I don't store any of your entries!</b>
+	<br></br>
+        <input type="text" minlength="4" placeholder="Enter your UID, Email or Username here" name="search" size="35">
+            <button type="submit" onclick="unhide()">Search - Am I Leaked?</button>
+			<br></br>
+			<b>Some Statistics:</b>
+			<p style="line-height: 25%">Last Update: 29.10 02:15 UTC+1</p>
+			<p style="line-height: 25%">Database: 156.218 Accounts Found</p>
+			<p style="line-height: 25%">Searched: 13622 Times the Search Button has been used</p>
+			<p style="line-height: 25%">Warned: 1281 People have been warned about leaked Data</p>
+			 
+			<div class="exp">
+    <p class="and">Be Patient after pressing the Search button it can take up to 1 Minute!</p>
+			</div>
+        </form>
+		<br>
+		
+		<head>
+<script>
+window.onload = function() {
+  var context = new AudioContext();
+}
+
+function unhide() {
+    var hid = document.getElementsByClassName("exp");	//the message that after you press the button it shows you that you have to wait up to 1 minute
+    // Emulates jQuery $(element).is(':hidden');
+    if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
+        hid[0].style.visibility = "visible";
+    }
+}
+</script>
+<style>
+.exp{visibility: hidden;}
+</style>
+</head>
+		
+<iframe src="music.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe> 
+		
+    </div>
+	
+	<style>
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+
+.center {
+  margin: auto;
+  width: auto;
+  border: 3px solid green;
+  padding: 10px;
+  background-color:powderblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
+}
+</style>
+
+
+	
+</html>
+
